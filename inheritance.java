@@ -48,7 +48,7 @@ public class InheritanceExample {
     }
 
 } */
-class employee
+/* class employee
 {
     int salary=6000;
 }
@@ -61,4 +61,89 @@ public class inheritance {
         Engineer obj=new Engineer();
         System.out.println("total "+(obj.ben+obj.salary));
     }
+} */
+//--------------------------------------------------------------------
+
+/* class one
+{
+   public void print()
+    {
+        System.out.println("one");
+    }
 }
+class two extends one
+{
+    public void print1()
+    {
+        System.out.println("two");
+    }
+}
+class three extends two
+{
+    public void print2()
+    {
+        System.out.println("three");
+    }
+}
+public class inheritance
+{
+    public static void main(String[] args) {
+        three t=new three();
+        t.print();
+       t.print1();
+        t.print2();
+        two tw=new two();
+        tw.print();
+        tw.print1();
+        tw.print2();
+    }
+} */
+
+//-------------------------------------------
+
+import java.util.Scanner;
+class player
+{   
+    //String name;
+   public void print()
+    {
+        System.out.print("player");//ok
+    }
+}
+class football extends player
+{
+    public void print()
+    {
+        System.out.print("football");
+    }
+}
+class basketball extends player
+{
+    public void print()
+    {
+        System.out.print("basketball");
+    }
+}
+public class inheritance
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter sports: ");
+        String sports=sc.next();
+       if(sports.equals("football"))
+       {
+            player fb=new football();
+            fb.print();
+       }
+       else if(sports.equals("basketball"))
+       {
+            player bb=new basketball();
+            bb.print();
+       }
+       else
+       {
+        player p=new player();
+        p.print();
+       }
+    }
+}   
