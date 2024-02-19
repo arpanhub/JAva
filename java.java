@@ -149,6 +149,7 @@ public class java {
             end--;
         }
         System.out.println(str);
+        System.out.println(str);
         
     }
 }
