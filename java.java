@@ -155,8 +155,10 @@ public class java {
 } */
 // package patterns;
 // import java.util.Scanner;
+/*
 public class java{
-    /* public static void main(String[] args) {
+    
+     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         for(int i=0;i<n;i++)
@@ -168,7 +170,7 @@ public class java{
         }
     } */
     
-        public static void main(String[] args) {
+        /* public static void main(String[] args) {
             int rows = 5;
     
             for (int i = 0; i < rows; i++) {
@@ -180,6 +182,5 @@ public class java{
                 }
                 System.out.println();
             }
-        }
-    
-}
+        } */
+

@@ -8,7 +8,7 @@ public class exception{
             for(int i=0;i<arr.length;i++)
             {
                 if(arr[i]==null)
-                throw new IllegalArgumentException("y element cant be nulll");
+                throw new IllegalArgumentException("element cant be nulll");
                 System.out.println(arr[i]);
 
             }
